@@ -1,0 +1,680 @@
+html {
+    scroll-padding-top: 50px;
+}
+ 
+header .font{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 20px;   
+}
+h2.WhoweAre{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 17px;   
+    color: #1f1f1f;
+}
+
+p.p-font{
+  font-family: "Source Sans 3", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 36px;   
+        color: #787878;
+}
+.max-width {
+    max-width: 800px;
+}
+.max-w{
+  max-width: 810px;
+}
+img.logo{
+    width:100px
+}
+
+.header1-bg{
+    background-image: url(../images/images/bg-image-28.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.header2-bg{
+    background-image: url(../images/images/bg-image-29.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 100px;
+        line-height: 125px;  
+}
+.line1::after{
+    content: '|';
+    color: #67CEE8;
+    animation:  title 3s linear 1s  infinite alternate ;
+}
+
+
+@keyframes title{
+    0% {content: '|';}
+    15% {content: 'a|';}
+    17% {content: ' ap|';}
+    19% {content: ' app|';}
+    30% {content: ' apps|';}
+    32% {content: ' w|';}
+    34% {content: ' we|';}
+    36% {content: 'web |';}
+    38% {content: 'webs|';}
+    40% {content: 'websi|';}
+    42% {content: 'websit|';}
+    44% {content: 'website|';}
+    58% {content: 'websites|';}
+    /* 55% {content: '|';} */
+    60% {content: 's|';}
+    62% {content: 'so|' ;}
+    64% {content: 'sof|' ;}
+    66% {content: 'soft|';}
+    68% {content: 'softw|';}
+    70% {content: 'softwa|';}
+    74% {content: 'softwar|';}
+    77% {content: 'software|';}
+   
+    100% {content: 'softwares|';}
+
+}
+
+.font-btn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 48px;   
+    
+}
+
+button.read-more:hover  {
+    color: white;
+    background-color: black !important;
+}
+
+section.creative-team h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 49px;   
+    
+}
+section.creative-team  h3{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;   
+    color: #787878;
+}
+
+section.creative-team h2::before{
+    content: 'C';
+    color: #F2F2F2;
+   font-size: 90px;
+    position: absolute;
+    bottom: 30%; ;
+    left: 47%;
+    z-index: -1;
+
+}
+
+div.team-collection h6{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height:18px;   
+}
+div.team-collection img.img-width-80{
+  width: 90%;
+}
+
+.caption{
+    position: absolute;
+    top: 0; bottom: 0 ; 
+    right:0%; left:0;
+    opacity:0;
+  
+    background-color: rgb(102, 201, 221,0.83);
+    transform: translateY(10%);
+    transition:  opacity 1s , transform 1s;
+    
+   
+}
+.team-collection:hover .caption{
+    opacity: 1;
+    transform: translateY(0%);
+    
+}
+ .bg-section{
+    background-color:#626262;
+} 
+
+section.what-section div.fonts{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    line-height:17px;   
+}
+section.what-section h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    line-height:49px;   
+}
+
+div.title h2::before{
+    content: 'W';
+    color: #6B6B6B;
+   font-size: 70px;
+  position: absolute;
+ bottom: 25%;
+ left: 17%;
+  z-index: -4;
+}
+ .color{
+  background-color: #f7f7f7;
+}
+section.prices-section h2::before{
+    content: 'C';
+     color: #EAEAEA ; 
+   font-size: 60px;
+  position: absolute;
+ bottom: 25%;
+ left: 48%;
+  z-index: -999;
+}
+
+section.prices-section h2.title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    line-height:49px;   
+}
+section.prices-section h3{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;   
+    color: #787878;
+}
+section.prices-section h6, div.features div{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;   
+}
+
+section.prices-section div.value{
+  font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-style: normal;
+    font-size: 9px;
+    line-height:14px;   
+    color:#F8FBFC;
+}
+div.font-price{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 55px;
+    line-height:72px;   
+}
+
+
+.shine{
+  border-radius: 1px;
+  background-color: #2195f3cb;
+  color: #fff;
+  border: none;
+  transition: transform 1s;
+}
+.shine::before{
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(130deg,rgba(168, 22, 22, 0)30%,
+  rgba(255, 255, 255, 0.278),rgba(255,255,255,0)70%);
+  top:0;
+  left: -100px;
+ 
+}
+.shine:hover:before{
+  animation: shine 3s infinite linear;
+  
+}
+.shine:hover{
+background-color: #67CEE8;
+transform: translateY(-2px);
+}
+
+@keyframes shine {
+  0%{left:-100px;}
+  50%{left:100%;}
+  100%{left:100%;}
+}
+
+button.btn-font{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  line-height:40px;   
+}
+
+div.starter::before{
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 220px;
+  height: 2px;
+  background-color: #EEEEEE;
+}
+
+.price-col {
+
+  transition: box-shadow 0.7s;
+}
+
+.price-col:hover {
+  box-shadow:6px 6px 40px 10px rgba(122, 119, 119, 0.126);
+}
+
+h6.customer-font{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 17px;  
+  color: #1f1f1f;
+}
+
+h2.name{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 31px;  
+  color: #1f1f1f;
+}
+h3.role{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;  
+  color: #787878;
+}
+p.feedback{
+  font-family: "Source Sans 3", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 27px;   
+        color: #787878;
+}
+
+ section.customer-happy .carousel-indicators [data-bs-target]{
+  width: 10px;
+  height: 10px;
+ border-radius: 50%;
+  background-color: grey;
+ 
+}
+section.customer-happy .carousel-indicators  .active{
+  background-color: #61C4DA;
+}
+img.width{
+  width: 100px;
+  transform: translateY(50%);
+  
+}
+
+.card-70{
+  width: 60%;
+}
+.arrows{
+  bottom:-15%;
+  transition:  transform 2s;
+}
+
+button.btn-slider:hover i{
+color:#64C7DB !important ;
+
+}
+
+button.btn-slider:hover .arrowsP{
+  transform: translateX(-25%);
+}
+button.btn-slider:hover .arrowsN{
+  transform: translateX(25%);
+}
+
+.shadow{
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);;
+ /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+}
+
+
+section.contact h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 49px;   
+  
+}
+section.contact  h3{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;   
+  color: #787878;
+}
+
+section.contact h2::before{
+  content: 'G';
+  color: #F2F2F2;
+ font-size: 80px;
+  position: absolute;
+  bottom: 15%; ;
+  left: -2%;
+  z-index: -1;
+
+}
+label{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;   
+}
+.input-width{
+  width: 80%;
+}
+
+div.line::before{
+  content: '';
+  
+  width:1px;
+  height: 205%;
+  background-color: gray;
+  position: absolute;
+top: -60%;
+  left:83%;
+
+}
+
+div.icon-position{
+  left:0;
+  bottom: 37%;
+}
+
+
+
+section.header-section h2{
+  
+    font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23px;  
+}
+section.header-section .carousel-indicators [data-bs-target]{
+  width: 40px;
+  height:2px;
+  background-color: grey;
+ 
+}
+
+
+div.icons-layer{
+  left:-27%;
+  top:-4%
+}
+div.icons1-layer{
+  left:-21%;
+  top:-4%
+}
+div.layer{
+  background-color: transparent;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease,background-color 1s;
+
+
+}
+div.icon1:hover div.layer{
+ 
+  background-color: rgba(245, 245, 245, 0.623);
+  transform: translateX(0);
+}
+
+      
+div.header-caption h1{
+  opacity: 0;
+  animation-name: header-h1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  
+}
+
+div.header-caption h2{
+  opacity: 0;
+  animation-name: header-h1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+div.header-caption div.all-btn{
+  opacity: 0;
+  animation-name: header-h1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+@keyframes header-h1 {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width:200px) and( max-width:700px) {
+  section.what-section  div.title h2::before{
+    content: 'W';
+    color: #6B6B6B;
+   font-size: 70px;
+  position: absolute;
+ bottom: 25%;
+ left: 27% ;
+  z-index: -4;
+}
+
+}
+a.nav-link:hover ,div.social{
+  color: rgb(134, 131, 131) !important;
+}
+
+
+@media (max-width:990px) {
+div.socials{
+  display: none;
+}
+    
+  }
+
+
+@media (min-width:1000px) {
+.input-width{
+  width: 80%;
+}
+
+.gold{
+  transform: scale(1.11);
+  
+}
+
+}
+
+@media (max-width:699px) {
+  .mobile-width{
+    width: 100%;
+  }
+
+  }
+ 
+.navbar-toggler {
+  border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+
+.toggler-icon{
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  display: block;
+  transition: all 0.2s;
+}
+
+
+.middle-bar{
+  margin: 5px auto;
+}
+
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #777777;
+}
+
+
+@media (min-width:1000px) and (max-width:1400px) {
+  
+
+  div.icons-layer{
+    left:-13%;
+    top:-4%
+   
+  }
+  div.icons1-layer{
+    left:-3%;
+    top:-4%
+  }
+  div.layer{
+    background-color: transparent;
+    transform: translateX(-70%);
+    transition: transform 0.5s ease,background-color 1s;
+  
+  
+  }
+  div.icon1:hover div.layer{
+   
+    background-color: rgba(245, 245, 245, 0.623);
+    transform: translateX(0);}
+  }
+@media (min-width:701px) and (max-width:1000px) {
+
+
+  div.icons-layer{
+    left:-18%;
+    top:-4%
+   
+  }
+  div.icons1-layer{
+    left:-9%;
+    top:-4%
+  }
+  div.layer{
+    background-color: transparent;
+    transform: translateX(-70%);
+    transition: transform 0.5s ease,background-color 1s;
+  
+  
+  }
+  div.icon1:hover div.layer{
+   
+    background-color: rgba(245, 245, 245, 0.623);
+    transform: translateX(0);}
+  }
+
+  @media (max-width:850px) {
+ 
+    .noArrow{
+      display: none;
+    }
+
+  
+    }
+    @media (max-width:850px) and (min-width:200px) {
+     
+
+      .medium{
+        display: none;
+      }
+      
+      .gold{
+        transform: scale(0.999999);
+        
+      }
+    }
